@@ -415,10 +415,9 @@ img {
 }
 
 .portfolio-item:hover .portfolio-overlay,
-.portfolio-link:focus .portfolio-overlay {
+.portfolio-item:focus-within .portfolio-overlay {
   transform: translateY(0);
 }
-
 .portfolio-card {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
